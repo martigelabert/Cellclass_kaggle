@@ -211,7 +211,8 @@ La manera correcta de escalar es calculando nuestra media y varianza empleando n
 
 No tendría sentido escalar de forma en que cada conjunto propio escalase en función de sus datos ya que así estaríamos creando también tendencias en nuestro modelo.
 
-Aquí el escalado de los datos es muy importante ya que en este caso, el PCA lo que va a buscar son las caracteristicas con **varianza máxima**, si por algún motivo no normalizasemos podríamos tener valores muy altos (con una alta varianza) que provocaría una tendencia hacía estas caractericticas con estos valores.    
+Aquí el escalado de los datos es muy importante ya que en este caso, el PCA lo que va a buscar son las caracteristicas con **varianza máxima**, si por algún motivo no normalizasemos podríamos tener valores muy altos (con una alta varianza) que provocaría una tendencia hacía estas caractericticas con estos valores.
+
 ```{python}
 scaler = StandardScaler()
 scaler.fit(X_test)
@@ -219,7 +220,7 @@ X_test= scaler.transform(X_test)
 X_train=scaler.transform(X_train)
 ```
 
-Con los datos normalizados pasaremos a tener una desviación estandar (de cada columna) de 1, como podremos ver a continuación:
+Con los datos normalizados y centrados pasaremos a tener una desviación estandar (de cada columna) de 1, como podremos ver a continuación:
 
 ```{python}
 pd.DataFrame(X_train,columns=[x.head()]).std()
