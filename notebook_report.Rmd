@@ -683,6 +683,8 @@ El random forest nos da un score de 0.3237 en kaggle, dandonos un resultado supe
 ```{r echo=FALSE}
 read.csv(file = 'outputs_tabla.csv')
 ```
+No se han incluido todos los test que se han realizado para la práctica, debido a que además de que alargarian demasiado el reporte se ha considerado que no aportarían información útil, más allá de los resultados números, pese a esto podemos ver una clara victoria para el clasificador del SVM, no obstante como ya se a comentado en los resultados anteriores, desde luego no es normal que podamos modelizar tan bien nuestro conjunto de train y que al tratar de predecir nuestro test real tengamos resultados bastante peores, por lo que es una posibilidad que exista algún tipo de problema con este último o simplemente que nuestra score aumentará al emplear todo el conjunto de kaggle en lugar de un subconjunto.
+
 # Conclusiones
 
 El estudiar diferentes algoritmos de aprendizaje automatico han permitido la realización de esta documentación y a dado pie a un pequeño trabajo de experimentación a veces a base de prueba y error, pero sobretodo se ha conseguido aplicar parte de los algoritmos vistos en clase en un entorno de datos "reales", que pese a que sobre el campo teorico pudiesemos pensar que un modelo no llegase a generalizar bien, a base de testeos se ha podido comprobar que en la práctica la experimentación es lo que más peso puede llegar a tener para comprobar el rendimiento que es capaz de tener un modelo. 
