@@ -1,0 +1,12 @@
+Modelo,Accuracy,Kaggle score
+SVM ovo C200  gamma 0.001 krbf PCA 90%,0.94,0.63069
+SVM ovo C50 gamma0.001 krbf PCA 95%,0.97,0.63069
+SVM SGD PCA 90% penalty=elasticnet loss=hinge iter=1000,0.97,0.57902
+SMVGRID_R075.csv,0.98 ,0.54103
+SMVGRID_R06.csv,0.91,0.65197
+SMVGRID_R05.csv,0.89,0.45896
+SMVGRID_R65.csv,0.91,0.59726
+SMVGRID_R55.csv,0.87,0.51367
+SMVGRID_R05_300C_OVO_rbf.csv,0.87,0.49848
+rft_grid.csv,0.96 ,0.32370
+decision_trees.csv,0.94,0.18844
