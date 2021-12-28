@@ -1,9 +1,6 @@
 # Cellclass_kaggle
 Repositorio del código para la competición de Aprenentatge Automátic sobre casificación de celulas según su tipo, el enlace de la competición se encontrará dispinible en el siguiente [link](https://www.kaggle.com/c/cellclass/data)
 
-Si no quieres descargarte el html puedes emplear este enlace para verlo desde el navegador
-
-
 ## Reglas
 - No hacer trampas
 - La nota no solo dependerá de nuestros datos obtenidos si no también en el proceso
