@@ -10,5 +10,6 @@ Repositorio del código para la competición de Aprenentatge Automátic sobre ca
 
 # Aclaraciones
 
-Se ha empleado el genreador de reportes que nos provee Rstudio devido a su comodidad y a la calidad de estos, además de por curiosidad didactica de emplearlo.
-
+- Se ha empleado el genreador de reportes que nos provee Rstudio devido a su comodidad y a la calidad de estos, además de por curiosidad didactica de emplearlo.
+- El contenido se encuentra en notebook_report.Rmd
+- El notebook generado con el rmd es **notebook_report.nb.html**
