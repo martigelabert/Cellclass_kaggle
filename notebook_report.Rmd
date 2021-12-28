@@ -117,11 +117,11 @@ El resultado de la clasificación se debe comprobar subiendo los datos a una com
 
 Aparentemente los datos se han tomado desde el mismo microscopio, por lo que no debería de haber ningún problema a la hora de coger las muestras de test y de train (presuntamente), en primer lugar podríamos empezar a descartar algunos elementos como por ejemplo el color, ya que no debería de ser importante con respecto a diferentes elementos como su forma o textura. Generalmente a la hora de tratar con imagenes se deberían de reducir sus dimensiones (cosa que no se hace en esta practica), por lo que probablemente se reduciria tanto la resolución de la imagen como la cantidad de información de los canales de color (si quisieramos tener los elementos más caracteristicos claro) pero en lugar de especular, emplearemos los diferentes modelos de aprendizaje que se han podido ver durante el curso (a excepcción de los multilayer) para demostrar nuestras hipotesis.  
 
-<!-- 
+
 <div class="alert alert-block alert-info">
-<b>Nota:</b> Se comentarán los problemas que ha habido con respecto a los resultados obtenidos en kaggle y el código que no se muestre en el reporte por razones esteticas estará disponible tanto en el directorio principal
+<b>Nota:</b> El Github donde se encuentra esta documentación y el rmd esta en este [link](https://github.com/martigelabert/Cellclass_kaggle)
 </div>
--->
+
 
 # Analisis general de datos
 
